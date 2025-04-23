@@ -1,0 +1,23 @@
+[
+  {
+    "company": "Skinstric A.I ",
+    "role": "Software Engineer",
+    "resps": [
+      "Architected real-time skin analysis platform using OpenAI Vision API and Next.js 14, achieving 98% detection accuracy across diverse skin conditions",
+      "Developed responsive UI with TailwindCSS and GSAP animations, implementing dynamic skincare recommendation cards with 60% improved engagement",
+      "Implemented efficient image processing pipeline combining OpenAI Vision API with 4D Mini model for enhanced accuracy in skin tone and texture analysis"
+    ],
+    "date": "Sep 2024 - Dec 2024"
+  },
+  {
+    "company": "Frontend Simplified",
+    "role": "Software Engineer & Support Staff",
+    "resps": [
+      "Selected as peer mentor after achieving top 5% performance in cohort, providing debugging support and code reviews for 20+ students across React and Next.js projects.",
+      "Created and led workshops on modern frontend optimization techniques, helping students improve their portfolio project load times by an average of 50%.",
+      "Built and shared reusable component library using ShadCN/UI, reducing development time for student projects by 40% and improving code consistency",
+      "Led study groups on deployment strategies and CI/CD, resulting in 85% of students successfully implementing automated deployment pipelines for their portfolio projects"
+    ],
+    "date": "Jan 2024 - Aug 2024"
+  }
+]
