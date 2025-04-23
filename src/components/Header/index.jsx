@@ -11,6 +11,7 @@ import { useInView } from "react-intersection-observer"
 import ScrambleText from "../ScrambleText"
 import Time from "../Time"
 import NavMenu from "../NavMenu"
+import Ola from '../../assets/resume.pdf'
 
 export default function Header() {
   const controls = useAnimation()
@@ -81,7 +82,7 @@ export default function Header() {
             </ScrambleText>
           </a>
           <span className="header--hash">{"//"}</span>
-          <a href="src/assets/olamilekan-akinlusi-resume.docx" target={"_blank"} rel="noopener noreferrer">
+          <a href={Ola} target={"_blank"} rel="noopener noreferrer">
             <ScrambleText shuffle delay={1.5}>
               RESUME
             </ScrambleText>
@@ -132,9 +133,9 @@ export default function Header() {
       <h1 className="header--name">
         <TextWriting controls={controls} text={"Olamilekan Akinlusi"} noblink />
         <br />
-        <TextWriting controls={controls} delay={1.65} text={"Frontend"} noblink />{" "}
+        <TextWriting controls={controls} delay={1.65} text={"Software"} noblink />{" "}
         <motion.div initial="hidden" animate={controls} variants={nameVariants} className="header--name--sec">
-          <TextWriting controls={controls} delay={2.85} text={"Developer"} noblink />
+          <TextWriting controls={controls} delay={2.85} text={"Engineer"} noblink />
           <div className="header--name--border">
             <span></span>
             <span></span>

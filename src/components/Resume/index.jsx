@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import "./style.css"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
+import Ola from '../../assets/resume.pdf'
 
 // components
 import BackgroundLines from "../BackgroundLines"
@@ -75,7 +76,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/olamilekan-akinlusi/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="src/assets/olamilekan-akinlusi-resume.docx" target="_blank" rel="noreferrer">
+                <a href={Ola} target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
