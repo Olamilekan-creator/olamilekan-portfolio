@@ -75,7 +75,7 @@ export default function Resume() {
                 <a href="https://www.linkedin.com/in/olamilekan-akinlusi/" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="src/assets/OlamilekanAkinlusi Resume.docx" target="_blank" rel="noreferrer">
+                <a href="src/assets/Olamilekan-Akinlusi Resume (1).docx" target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>
