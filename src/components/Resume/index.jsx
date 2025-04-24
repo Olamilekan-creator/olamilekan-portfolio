@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import "./style.css"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import Ola from '../../assets/resume.pdf'
+import Ola from '../../assets/Olamilekan.docx'
 
 // components
 import BackgroundLines from "../BackgroundLines"
